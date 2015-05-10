@@ -1,0 +1,53 @@
+html{
+  background-color: #D4DCED;
+  }
+
+span {
+  height: 100px;
+  width: 100px;
+}
+
+header {
+  font-family: Lucida Console;
+  color: #054009;
+  position: center;
+}
+h2{
+  display: inline-block;
+  margin-left: 100px;
+}
+}
+title {
+  position: relative;
+  font-family: chewy;
+
+    }
+
+.links {
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+}
+section {
+  display: inline-block;
+}
+
+a {
+  height: 5px;
+  width: 5px;
+  margin: 5px;
+  position: relative;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+h4 {
+  color: gray;
+  position: center;
+}
+.profile {
+  height: 100px;
+  width: 100px;
+}
