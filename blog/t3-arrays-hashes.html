@@ -11,16 +11,49 @@
   <h4>May 12, 2015</h4>
 
   <section>
-    <p>
+    <p>  Arrays and Hashes.  Both store information that we can retrieve or manipulate later BUT they store information in a different way.
     </p>
 
-    <p>
+    <p>Arrays store elements of one group.  Below is an example of an array of cities in Minnesota.
     </p>
 
-    <p>
-
+    <p>  Example:
+      <pre><code> array_of_cities_in_mn = ['Watertown', 'Minneapolis', 'Buffalo'] </pre></code>
     </p>
 
+    <p>  Arrays are a list of something put together in a group. The items, or elements, in the array are stored in the order they are listed. Each position in the array is given an index number (starting from 0).  To access an element you simply request that position's index number.
+    </p>
+    <p>  Hashes also are a way to group together information. The major distinction between arrays and hashes are that hashes are a group elements that are also associated with another value. Here is an example of a hash:
+    </p>
+    <pre><code>
+      my_life_in_minnesota = {:graduated_from => "Watertown",
+      :work_in => "Minneapolis",
+      :live_in => "Buffalo"
+    }</pre></code>
+<p>  As you can see it is very important that we keep :graduated_from and "Watertown" linked together.  This is an example of a key and value.  They are connected and stay connected. These pairs are not stored neatly in an index like in an array. To access an value you simply search for it's key.
+</p>
+<p>  *It is important to note that each key must be unique.  I could not list two different cities that I live_in. That wouldn't make sense. However, the values can be repeated.  I could potentially work_in and live_in the same city.
+</p>
+<p>  If you are deciding between arrays and hashes, just think---do I have a list of elements or pairings of elements (key and value) that need to stick together?
+</p>
+If you have a list of elements--go with an array.
+</p>
+<p>  More examples of arrays:</p>
+ <pre><code> languages = ['English', 'Spanish', 'Russian']</pre></code>
+ <pre><code> types_of_pop = ['Coke', 'Pepsi', 'Moutain Dew']</pre></code>
+
+<p>  If you have pairings of elements --go with a hash.</p>
+<p> More examples of hashes: </p>
+
+<pre><code> about_me = {:first_name => "Teresa",
+ :middle_name => "Marie",
+ :last_name => "Nesteby"
+ }</pre></code>
+
+<pre><code> dates_this_week = {:monday => "May 11, 2015",
+ :tuesday => "May 12, 2015",
+ :wednesday => "May 14, 2015"
+}</pre></code>
 
   </section>
 </main>
