@@ -1,6 +1,11 @@
 html {
-  background-color: #ECEDE0;
+  background-color: #F5FFF9;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 50px;
+}
+
+ul {
+  margin-left: 250px;
 }
 

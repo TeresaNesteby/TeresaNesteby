@@ -1,5 +1,5 @@
 html{
-  background-color: #D4DCED;
+  background-color: #F5FFF9;
   }
 
 span {
@@ -8,9 +8,9 @@ span {
 }
 
 header {
-  font-family: Lucida Console;
+  font-family: 'Dancing Script', cursive;
   color: #054009;
-  position: center;
+  margin-left: 200px;
 }
 h2{
   display: inline-block;
@@ -23,13 +23,16 @@ title {
 
     }
 
-.links {
+p {
   height: 5px;
   width: 5px;
-  display: inline-block;
+  display: inline;
+
 }
+
 section {
   display: inline-block;
+  margin-top: 75px;
 }
 
 a {
@@ -42,12 +45,18 @@ a {
 img {
   height: 50px;
   width: 50px;
+  position: inline-block;
+  margin-left: 100px;
 }
-h4 {
-  color: gray;
-  position: center;
-}
+
 .profile {
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+.profile_combo {
+  position: inline;
 }
