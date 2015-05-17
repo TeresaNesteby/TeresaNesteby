@@ -8,5 +8,6 @@ html {
 ul {
   margin-left: 250px;
   list-style: circle;
+  font-size: 25px;
 }
 
