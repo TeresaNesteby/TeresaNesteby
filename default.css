@@ -1,5 +1,5 @@
 html{
-  background-color: #F5FFF9;
+  background-color: #1F5360;
   }
 
 span {
@@ -9,8 +9,8 @@ span {
 
 header {
   font-family: 'Dancing Script', cursive;
-  color: #054009;
-  margin-left: 200px;
+  color: #4FD13C
+
 }
 h2{
   display: inline-block;
@@ -60,3 +60,5 @@ footer {
 .profile_combo {
   position: inline;
 }
+
+
