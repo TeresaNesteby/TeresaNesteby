@@ -6,9 +6,12 @@ html {
   color: #0C1747;
 }
 
-ul {
+body {
   margin-left: 250px;
   list-style: circle;
   font-size: 25px;
 }
 
+ul {
+  list-style: square;
+}
