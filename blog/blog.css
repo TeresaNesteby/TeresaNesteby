@@ -18,3 +18,30 @@ ul {
   table, th, td {
     border: 1px solid black;
 }
+    .social-twitter {background-color: #cccccc;}
+    .social-facebook {background-color: #f9398c;}
+    .social-email {background-color: #ad2744;}
+    .social-rss {background-color: #cccccc;}
+    .social-google {background-color: #cccccc;}
+    .social-flickr {background-color: #f9398c;}
+    .social-linkedin {background-color: #cccccc;}
+    .social-youtube {background-color: #cccccc;}
+    .social-vimeo {background-color: #cccccc;}
+    .social-instagram {background-color: #cccccc;}
+    .social-bloglovin {background-color: #cccccc;}
+    .social-pinterest {background-color: #cccccc;}
+    .social-tumblr {background-color: #cccccc;}
+
+    .social-twitter:hover {background-color: #f9398c;}
+    .social-facebook:hover {background-color: #f9398c;}
+    .social-email:hover {background-color: #aaaaaa;}
+    .social-rss:hover {background-color: #f9398c;}
+    .social-google:hover {background-color: #f9398c;}
+    .social-flickr:hover {background-color: #f993bf;}
+    .social-linkedin:hover {background-color: #f9398c;}
+    .social-youtube:hover {background-color: #ff0000;}
+    .social-vimeo:hover {background-color: #00c1f8;}
+    .social-instagram:hover {background-color: #f9398c;}
+    .social-bloglovin:hover {background-color: #00c4fd;}
+    .social-pinterest:hover {background-color: #c70505;}
+    .social-tumblr:hover {background-color: #304d6b;}

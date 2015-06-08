@@ -1,5 +1,6 @@
 html{
-  background-image: url("http://thumbs.dreamstime.com/t/green-wallpaper-pattern-background-abstract-39786633.jpg");
+  background-color: BDB5B5;
+  color: #3B4C47;
   }
 
 span {
@@ -8,18 +9,18 @@ span {
 }
 
 header {
-  font-family: 'Dancing Script';
-  color: #0C1747;
-  position: center;
+  font-family: 'IM Fell Great Primer', serif;
+  text-align: center;
+  color: #30D324;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 h2{
   display: inline-block;
-  margin-left: 100px;
 }
 }
 title {
-  position: relative;
   font-family: chewy;
 
     }
@@ -41,7 +42,6 @@ a {
   height: 5px;
   width: 5px;
   margin: 5px;
-  position: relative;
 }
 
 img {
@@ -60,6 +60,6 @@ footer {
   margin-bottom: 50px;
 }
 .profile_combo {
-  position: inline;
+
 }
 
