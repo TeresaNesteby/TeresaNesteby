@@ -1,8 +1,10 @@
 html{
-  background-color: BDB5B5;
-  color: #3B4C47;
+  background-color: #B2ABAB;
+  color: #6E0455;
   }
-
+hr {
+  color: black;
+}
 span {
   height: 100px;
   width: 100px;
@@ -10,10 +12,10 @@ span {
 
 header {
   font-family: 'IM Fell Great Primer', serif;
-  text-align: center;
-  color: #30D324;
+  text-align; center;
   margin-left: auto;
   margin-right: auto;
+  position: center;
 
 }
 h2{
@@ -63,3 +65,10 @@ footer {
 
 }
 
+
+
+}
+p a:hover,
+h3 a:hover {
+  color: #6E0455;
+}
