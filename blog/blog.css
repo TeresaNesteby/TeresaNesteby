@@ -1,9 +1,11 @@
 html {
-  background-image: url("http://thumbs.dreamstime.com/t/green-wallpaper-pattern-background-abstract-39786633.jpg");
+  /*background-image: url("http://bgfons.com/upload/lines_texture1090.jpg");*/
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
-  color: #0C1747;
+  background-color: #B2ABAB;
+  color: #6E0455;
+  }
 }
 
 body {
