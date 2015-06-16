@@ -27,12 +27,7 @@ title {
 
     }
 
-p {
-  height: 5px;
-  width: 5px;
-  display: inline;
 
-}
 
 section {
   display: inline-block;
@@ -40,18 +35,9 @@ section {
   font-size:20px;
 }
 
-a {
-  height: 5px;
-  width: 5px;
-  margin: 5px;
-}
+.social_media
 
-img {
-  height: 350px;
-  width: 75%;
-  margin-left: 75px;
-  border: solid 10px #0C1747;
-}
+
 
 .profile {
   height: 300px;
