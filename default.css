@@ -30,7 +30,7 @@ title {
 sidebar {
   float: right;
   width: 200px;
-
+  margin-bottom: 120px;
 }
 section {
   display: inline-block;
@@ -39,8 +39,11 @@ section {
 }
 
 .social_media {
-  position: center;
-
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  width: 200px;
+  display: block;
 }
 
 
@@ -50,9 +53,13 @@ section {
 }
 
 footer {
-  margin-bottom: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
 }
-
 
 p a:hover,
 h3 a:hover {
@@ -60,7 +67,7 @@ h3 a:hover {
 }
 
 body {
-  padding-bottom: 50px;
+  margin-bottom: 120px;
 }
 .offscreen {
   position: absolute;
@@ -124,4 +131,7 @@ nav ul a:hover{
    font-size: medium;
    color: #9514A0;
    background-color: gray;
+}
+p {
+  font-size: 30pt;
 }
