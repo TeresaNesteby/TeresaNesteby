@@ -6,12 +6,12 @@ html {
   background-color: #77C61A;
   color: #6E0455;
   font-family: 'Shadows Into Light';
+  text-align: center;
 
 
 }
 
 body {
-  margin-left: 250px;
   list-style: circle;
   font-size: 25px;
 }
