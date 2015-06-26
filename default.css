@@ -34,7 +34,9 @@ title {
 
     }
 
+/*body {
 
+}*/
 section {
   display: inline-block;
   margin-top: 75px;
@@ -43,27 +45,32 @@ section {
 
 .social_media {
   position: absolute;
-  bottom: 15px;
-  left: 350px;
-  right: 350px;
+  top: 200px;
+  left: 550px;
+
   width: 100%;
   display: inline;
 
 }
-.social_media:hover {
+/*.social_media:hover {
   color: #f9398c;
-}
+}*/
 /* .profile {
   height: 300px;
   width: 300px;
 } */
 
 footer {
-  display: inline-block;
+
   font-size: 10px;
   width: 100%;
   text-align: center;
+  position: absolute;
+  bottom: 15px;
+  display: inline;
+
 }
+
 
 p a:hover,
 h3 a:hover {
@@ -71,8 +78,9 @@ h3 a:hover {
 }
 
 /* body {
-  margin-bottom: 120px;
-} */
+    margin-left: 150px;
+
+}*/
 .offscreen {
   position: absolute;
   top: -30em;
