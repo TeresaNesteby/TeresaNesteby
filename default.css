@@ -23,9 +23,7 @@ header {
   margin-bottom: 200px;
 }
 
-body {
-  background: #6303BE;
-}
+
 h2{
   display: inline-block;
 }
@@ -47,9 +45,8 @@ section {
   bottom: 15px;
   left: 350px;
   right: 350px;
-
-  width: 200px;
-  display: block;
+  width: 100%;
+  display: inline;
 
 }
 .social_media:hover {
@@ -59,15 +56,12 @@ section {
   height: 300px;
   width: 300px;
 } */
-.footer {
-  text-align: center;
 
-}
 footer {
-  display: inline;
+  display: inline-block;
   font-size: 10px;
   width: 100%;
-
+  text-align: center;
 }
 
 p a:hover,
