@@ -22,6 +22,10 @@ header {
   font-size: 50pt;
   margin-bottom: 200px;
 }
+
+body {
+  background: #6303BE;
+}
 h2{
   display: inline-block;
 }
@@ -55,12 +59,14 @@ section {
   height: 300px;
   width: 300px;
 } */
+.footer {
+  text-align: center;
 
+}
 footer {
   display: inline;
-  font-size: 5px;
+  font-size: 10px;
   width: 100%;
-  background-color: gray;
 
 }
 
@@ -86,6 +92,7 @@ nav {
    width: 100%;
    text-align: center;
    font-size: 20px;
+
 }
 
 nav ul {
@@ -138,11 +145,8 @@ nav ul a:hover{
    font-size: medium;
    color: #9514A0;
    background-color: gray;
+   text-decoration: underline;
 }
 p {
   font-size: 15pt;
-}
-.footer {
-  text-align: center;
-
 }
