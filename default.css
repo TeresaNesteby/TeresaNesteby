@@ -1,5 +1,5 @@
 html{
-  background-color: #77C61A;
+  background-color: #4F77ED;
   color: #6E0455;
   font-family: 'Shadows Into Light', cursive;
   }
@@ -26,11 +26,7 @@ title {
 
     }
 
-sidebar {
-  float: right;
-  width: 200px;
-  margin-bottom: 120px;
-}
+
 section {
   display: inline-block;
   margin-top: 75px;
@@ -39,24 +35,27 @@ section {
 
 .social_media {
   position: absolute;
-  left: 550px;
-  top: 150px;
+  bottom: 15px;
+  left: 350px;
+  right: 350px;
+
   width: 200px;
   display: block;
+
 }
 .social_media:hover {
   color: #f9398c;
 }
-.profile {
+/* .profile {
   height: 300px;
   width: 300px;
-}
+} */
 
 footer {
-  position: fixed;
-  text-align: center;
+  display: inline;
   font-size: 5px;
   width: 100%;
+  background-color: gray;
 
 }
 
@@ -65,9 +64,9 @@ h3 a:hover {
   color: #6E0455;
 }
 
-body {
+/* body {
   margin-bottom: 120px;
-}
+} */
 .offscreen {
   position: absolute;
   top: -30em;
@@ -85,14 +84,17 @@ nav {
 
 nav ul {
    list-style: none;
-   margin: 0;
+   margin-right: 15px;
    padding: 0;
+   text-align: right;
 }
 
 nav ul li {
    margin: 0;
    padding: 0;
    display: inline;
+
+
 }
 
 nav ul a:link{
@@ -132,5 +134,9 @@ nav ul a:hover{
    background-color: gray;
 }
 p {
-  font-size: 30pt;
+  font-size: 15pt;
+}
+.footer {
+  text-align: center;
+
 }

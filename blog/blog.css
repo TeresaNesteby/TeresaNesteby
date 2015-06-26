@@ -3,14 +3,76 @@ html {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
-  background-color: #77C61A;
+  background-color: #4F77ED;
   color: #6E0455;
-  font-family: 'Shadows Into Light';
-  text-align: center;
+  font-family: transitional san serif;
+}
+
+nav {
+   margin: 0;
+   padding: .3em 0 .3em 0;
+   background: #6E0455;
+   width: 100%;
+   text-align: center;
+   font-size: 20px;
+}
+
+nav ul {
+   list-style: none;
+   margin-right: 15px;
+   padding: 0;
+   text-align: right;
+}
+
+nav ul li {
+   margin: 0;
+   padding: 0;
+   display: inline;
 
 
 }
 
+nav ul a:link{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 15pt;
+   color: #004415;
+}
+
+nav ul a:visited{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #227755;
+}
+
+nav ul a:active{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #227755;
+}
+
+nav ul a:hover{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #9514A0;
+   background-color: gray;
+}
+sidebar {
+  float: right;
+  width: 200px;
+  margin-bottom: 120px;
+}
 body {
   list-style: circle;
   font-size: 25px;
