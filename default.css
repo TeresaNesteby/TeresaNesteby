@@ -1,6 +1,6 @@
 html{
   background-color: #4F77ED;
-  color: #6E0455;
+  color: #4FEDB9;
   font-family: 'Shadows Into Light', cursive;
   }
 hr {
@@ -76,7 +76,8 @@ h3 a:hover {
 nav {
    margin: 0;
    padding: .3em 0 .3em 0;
-   background: #6E0455;
+   /*background: #6E0455;*/
+   background: #6303BE;
    width: 100%;
    text-align: center;
    font-size: 20px;
@@ -103,7 +104,7 @@ nav ul a:link{
    text-decoration: none;
    font-weight: bold;
    font-size: 15pt;
-   color: #004415;
+   color: #4FEDB9;
 }
 
 nav ul a:visited{
@@ -112,7 +113,7 @@ nav ul a:visited{
    text-decoration: none;
    font-weight: bold;
    font-size: medium;
-   color: #227755;
+   color: #63F2BE;
 }
 
 nav ul a:active{
