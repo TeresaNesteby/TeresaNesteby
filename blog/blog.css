@@ -72,7 +72,7 @@ nav ul a:hover{
 sidebar {
   float: right;
   width: 200px;
-  margin-bottom: 120px;
+  margin-top: 50px;
 }
 body {
   list-style: circle;
@@ -80,7 +80,7 @@ body {
 }
 
 ul {
-  list-style: square;
+  list-style: inside circle;
 }
   table, th, td {
     border: 1px solid black;
