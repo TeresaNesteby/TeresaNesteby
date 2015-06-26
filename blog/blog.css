@@ -81,6 +81,7 @@ body {
 
 ul {
   list-style: inside circle;
+  font: #4FEDB9;
 }
   table, th, td {
     border: 1px solid black;
