@@ -87,7 +87,7 @@ body {
 }
 
 ul {
-  list-style: inside circle;
+  list-style: none;
   color: #4FEDB9;
   float: left;
   width: 400px;
