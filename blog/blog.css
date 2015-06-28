@@ -11,7 +11,7 @@ html {
 header {
   display: block;
   font-size: 30pt;
-  text-align: center;
+  /*text-align: center;*/
   background: #6303BE;
 }
 nav {
@@ -20,7 +20,7 @@ nav {
    background: #6303BE;
    width: 100%;
    font-size: 20px;
-   float: left;
+   float: right;
 }
 
 nav ul {
@@ -86,7 +86,7 @@ body {
 
 }
 
-ul {
+.blog_links {
   list-style: none;
   color: #4FEDB9;
   float: left;
